@@ -1,7 +1,7 @@
 # Next/Hardhat Project AVAX-Proof Project 2
 
-*Added Styles and CSS
-*Added a function to transfer tokens from owners account to any other account
+* Added Styles and CSS
+* Added a function to transfer tokens from owners account to any other account
 
 ## Description
 
