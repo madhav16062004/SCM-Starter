@@ -6,9 +6,12 @@ pragma solidity ^0.8.9;
 contract Assessment {
     address payable public owner;
     uint256 public balance;
+    address payable public receiver;
+    mapping(address => uint256) public sbalance;
 
     event Deposit(uint256 amount);
     event Withdraw(uint256 amount);
+    event Transfer(address receiver,uint256 amount);
 
     constructor(uint initBalance) payable {
         owner = payable(msg.sender);
@@ -56,5 +59,12 @@ contract Assessment {
 
         // emit the event
         emit Withdraw(_withdrawAmount);
+    }
+
+    function transfer(address _receive,uint256 aamount) public payable{
+        require(balance>=aamount,"balance is lower than amount");
+        balance-= aamount;
+        sbalance[_receive] += aamount;
+        emit Transfer(_receive, aamount);
     }
 }
