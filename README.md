@@ -1,4 +1,13 @@
-# Starter Next/Hardhat Project
+# Next/Hardhat Project AVAX-Proof Project 2
+
+*Added Styles and CSS
+*Added a function to transfer tokens from owners account to any other account
+
+## Description
+
+This project is a Ethereum baesd smart contract coded in soldity for a any checking balance and depositing and withdrawing the tokens also it can transfer to any other account .
+
+### Installing and Executing
 
 After cloning the github, you will want to do the following to get the code running on your computer.
 
@@ -10,3 +19,20 @@ After cloning the github, you will want to do the following to get the code runn
 
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+
+## Help
+
+For any issues, you can refer to the Remix documentation or common Ethereum development resources.
+
+## Authors
+
+Contributors names and contact info
+
+Madhav Goyal  
+[@22BCS15140] (madhavkkp@gmail.com)
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
